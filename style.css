@@ -1,5 +1,7 @@
 /* =========================================
+
    JULIEN GILLET — PORTFOLIO
+
    ========================================= */
 
 :root {
@@ -51,27 +53,41 @@ body {
 }
 
 /* =========================================
+
    TITRE + PHOTO
+
    ========================================= */
 
 .hero-content {
+
   display: flex;
+
   align-items: center;
+
   justify-content: center;
+
   gap: 20px;
+
 }
 
 .portrait {
+
   width: 200px;
+
   height: 200px;
+
   object-fit: cover;
+
   border-radius: 50%;
+
   display: block;
+
 }
 
-
 /* =========================================
+
    TITRE PRINCIPAL
+
    ========================================= */
 
 .hero {
@@ -102,7 +118,6 @@ body {
 
 }
 
-
 /* SURLIGNAGE DU H1 */
 
 .hero h1::after {
@@ -123,9 +138,10 @@ body {
 
 }
 
-
 /* =========================================
+
    TITRES H2
+
    ========================================= */
 
 .section h2 {
@@ -147,7 +163,6 @@ body {
   z-index: 1;
 
 }
-
 
 /* SURLIGNAGE H2 */
 
@@ -171,10 +186,12 @@ body {
 
 }
 
-
 /* =========================================
+
    SURIGNAGE ROUGE
+
    ENQUÊTE D'UN TOIT
+
    ========================================= */
 
 .surlignage-rouge::after {
@@ -183,9 +200,10 @@ body {
 
 }
 
-
 /* =========================================
+
    SECTIONS
+
    ========================================= */
 
 .section {
@@ -195,8 +213,6 @@ body {
   margin-bottom: 48px;
 
 }
-
-
 
 .intro {
 
@@ -210,9 +226,10 @@ body {
 
 }
 
-
 /* =========================================
+
    VIDÉO
+
    ========================================= */
 
 .video-section {
@@ -220,7 +237,6 @@ body {
   margin-bottom: 48px;
 
 }
-
 
 .video-subtitle {
 
@@ -234,7 +250,6 @@ body {
 
 }
 
-
 .video-player {
 
   width: 100%;
@@ -242,7 +257,6 @@ body {
   overflow: hidden;
 
 }
-
 
 .video-player video {
 
@@ -254,9 +268,10 @@ body {
 
 }
 
-
 /* =========================================
+
    CARTES MAMMOUTH MEDIA
+
    ========================================= */
 
 .cards-grid {
@@ -270,8 +285,6 @@ body {
   text-align: left;
 
 }
-
-
 
 .card {
 
@@ -290,7 +303,6 @@ body {
   isolation: isolate;
 
 }
-
 
 /* IMAGE */
 
@@ -312,9 +324,10 @@ body {
 
 }
 
-
 /* =========================================
+
    CATÉGORIE
+
    ========================================= */
 
 .card-category {
@@ -343,9 +356,10 @@ body {
 
 }
 
-
 /* =========================================
+
    OVERLAY
+
    ========================================= */
 
 .card-overlay {
@@ -362,9 +376,10 @@ body {
 
 }
 
-
 /* =========================================
+
    CONTENU DE LA CARTE
+
    ========================================= */
 
 .card-content {
@@ -391,9 +406,10 @@ body {
 
 }
 
-
 /* =========================================
+
    TITRE
+
    ========================================= */
 
 .card-title {
@@ -416,9 +432,10 @@ body {
 
 }
 
-
 /* =========================================
+
    CHAPEAU
+
    ========================================= */
 
 .card-chapeau {
@@ -447,9 +464,10 @@ body {
 
 }
 
-
 /* =========================================
+
    DATE
+
    ========================================= */
 
 .card-date {
@@ -478,9 +496,10 @@ body {
 
 }
 
-
 /* =========================================
+
    HOVER CARTES
+
    ========================================= */
 
 .card:hover img {
@@ -489,14 +508,11 @@ body {
 
 }
 
-
-
 .card:hover .card-overlay {
 
   background: rgba(0, 0, 0, 0.70);
 
 }
-
 
 /* LE TITRE DISPARAÎT */
 
@@ -508,7 +524,6 @@ body {
 
 }
 
-
 /* LE CHAPEAU APPARAÎT */
 
 .card:hover .card-chapeau {
@@ -516,7 +531,6 @@ body {
   opacity: 1;
 
 }
-
 
 /* LA DATE APPARAÎT EN BAS */
 
@@ -526,9 +540,10 @@ body {
 
 }
 
-
 /* =========================================
+
    ENQUÊTE D'UN TOIT
+
    ========================================= */
 
 .enquete {
@@ -536,8 +551,6 @@ body {
   margin-top: 4px;
 
 }
-
-
 
 .project-grid {
 
@@ -550,8 +563,6 @@ body {
   justify-content: center;
 
 }
-
-
 
 .project-card {
 
@@ -567,8 +578,6 @@ body {
 
 }
 
-
-
 .project-card img {
 
   width: 100%;
@@ -583,17 +592,16 @@ body {
 
 }
 
-
-
 .project-card:hover img {
 
   transform: scale(1.025);
 
 }
 
-
 /* =========================================
+
    CONTACT
+
    ========================================= */
 
 .contact {
@@ -610,14 +618,11 @@ body {
 
 }
 
-
-
 .contact h2 {
 
   margin-bottom: 10px;
 
 }
-
 
 /* EMAIL */
 
@@ -635,17 +640,16 @@ body {
 
 }
 
-
-
 .email:hover {
 
   text-decoration: underline;
 
 }
 
-
 /* =========================================
+
    RÉSEAUX SOCIAUX
+
    ========================================= */
 
 .follow-title {
@@ -653,8 +657,6 @@ body {
   margin-top: 45px !important;
 
 }
-
-
 
 .social-links {
 
@@ -669,8 +671,6 @@ body {
   margin-top: 10px;
 
 }
-
-
 
 .social-links a {
 
@@ -690,8 +690,6 @@ body {
 
 }
 
-
-
 .social-links img {
 
   width: 40px;
@@ -710,8 +708,6 @@ body {
 
 }
 
-
-
 .social-links a:hover img {
 
   transform: scale(1.1);
@@ -720,9 +716,10 @@ body {
 
 }
 
-
 /* =========================================
+
    TABLETTE
+
    ========================================= */
 
 @media (max-width: 800px) {
@@ -733,8 +730,6 @@ body {
 
   }
 
-
-
   .hero {
 
     padding-top: 28px;
@@ -742,16 +737,20 @@ body {
     padding-bottom: 55px;
 
   }
+
   .hero-content {
+
   gap: 12px;
+
 }
 
 .portrait {
+
   width: 65px;
+
   height: 65px;
+
 }
-
-
 
   .section h2 {
 
@@ -759,23 +758,17 @@ body {
 
   }
 
-
-
   .intro {
 
     font-size: 17px;
 
   }
 
-
-
   .cards-grid {
 
     grid-template-columns: repeat(2, 1fr);
 
   }
-
-
 
   .project-grid {
 
@@ -785,9 +778,10 @@ body {
 
 }
 
-
 /* =========================================
+
    TÉLÉPHONE
+
    ========================================= */
 
 @media (max-width: 560px) {
@@ -800,15 +794,11 @@ body {
 
   }
 
-
-
   .hero {
 
     padding: 24px 0 42px;
 
   }
-
-
 
   .hero h1 {
 
@@ -818,23 +808,17 @@ body {
 
   }
 
-
-
   .section {
 
     margin-bottom: 42px;
 
   }
 
-
-
   .section h2 {
 
     font-size: 29px;
 
   }
-
-
 
   .intro {
 
@@ -843,8 +827,6 @@ body {
     line-height: 1.5;
 
   }
-
-
 
   /* CARTES */
 
@@ -856,15 +838,11 @@ body {
 
   }
 
-
-
   .card {
 
     aspect-ratio: 1 / 1.15;
 
   }
-
-
 
   .card-title {
 
@@ -873,8 +851,6 @@ body {
     font-size: 21px;
 
   }
-
-
 
   /* CATÉGORIE PLUS PETITE SUR MOBILE */
 
@@ -890,8 +866,6 @@ body {
 
   }
 
-
-
   /* ENQUÊTE */
 
   .project-grid {
@@ -900,15 +874,11 @@ body {
 
   }
 
-
-
   .project-card {
 
     aspect-ratio: 0.80;
 
   }
-
-
 
   /* RÉSEAUX */
 
@@ -920,8 +890,6 @@ body {
 
   }
 
-
-
   .social-links a {
 
     width: 45px;
@@ -931,3 +899,280 @@ body {
   }
 
 }
+
+/* =========================================
+   ARTICLE — MEDECIN.HTML
+   Inspiration éditoriale : Mammouth Media
+   Styles limités à .article-page pour préserver l'accueil
+========================================= */
+
+.site.article-page {
+  --article-background: #ffffff;
+  --article-text: #222222;
+  --article-muted: #686868;
+  --article-accent: #1abc8c;
+  --article-reading-width: 760px;
+
+  width: min(1100px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 28px 0 80px;
+  color: var(--article-text);
+  background: var(--article-background);
+}
+
+.article-page .back-home {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: var(--article-muted);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.article-page .back-home:hover {
+  color: var(--article-accent);
+}
+
+.article-page .article-header,
+.article-page .article-intro,
+.article-page .article-content {
+  max-width: var(--article-reading-width);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.article-page .article-header h1 {
+  margin: 0 0 24px;
+  color: #171717;
+  font-size: clamp(36px, 5.2vw, 58px);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -1.8px;
+  text-wrap: balance;
+}
+
+.article-page .article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+  color: var(--article-muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.article-page .article-meta span:first-child {
+  color: #222222;
+  font-weight: 600;
+}
+
+.article-page .meta-separator {
+  color: #b8b8b8;
+}
+
+.article-page .article-intro {
+  margin-bottom: 34px;
+  padding-left: 20px;
+  border-left: 4px solid var(--article-accent);
+}
+
+.article-page .article-intro p {
+  margin: 0;
+  color: #383838;
+  font-size: clamp(18px, 2vw, 21px);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.article-page .article-hero-image {
+  width: 100%;
+  margin: 0 auto 48px;
+}
+
+.article-page .article-hero-image img {
+  display: block;
+  width: 100%;
+  max-height: 650px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.article-page .article-content p {
+  margin: 0 0 24px;
+  color: #303030;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.85;
+  overflow-wrap: break-word;
+}
+
+.article-page .article-content h2 {
+  margin: 48px 0 20px;
+  color: #191919;
+  font-size: clamp(25px, 3vw, 34px);
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: -0.7px;
+  text-wrap: balance;
+}
+
+.article-page .article-content h2:first-child {
+  margin-top: 0;
+}
+
+.article-page .article-content blockquote {
+  position: relative;
+  margin: 42px 0;
+  padding: 24px 28px;
+  border-left: 5px solid var(--article-accent);
+  background: #f5f7f6;
+  color: #222222;
+  font-size: clamp(22px, 3vw, 29px);
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -0.4px;
+}
+
+.article-page .article-image {
+  width: 100%;
+  margin: 38px 0 42px;
+}
+
+.article-page .article-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.article-page .article-content .article-signature {
+  margin-top: 45px;
+  padding-top: 20px;
+  border-top: 1px solid #e4e4e4;
+  color: var(--article-muted);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.article-page .article-footer {
+  max-width: var(--article-reading-width);
+  margin: 48px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.article-page .article-footer .back-home {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .site.article-page {
+    width: calc(100% - 40px);
+    padding-top: 22px;
+  }
+
+  .article-page .article-header h1 {
+    letter-spacing: -1.2px;
+  }
+
+  .article-page .article-hero-image {
+    margin-bottom: 36px;
+  }
+
+  .article-page .article-content p {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .article-page .article-content h2 {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 560px) {
+  .site.article-page {
+    width: calc(100% - 32px);
+    padding: 18px 0 45px;
+  }
+
+  .article-page .back-home {
+    margin-bottom: 26px;
+    font-size: 13px;
+  }
+
+  .article-page .article-header h1 {
+    margin-bottom: 18px;
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+
+  .article-page .article-meta {
+    gap: 8px;
+    margin-bottom: 24px;
+    font-size: 13px;
+  }
+
+  .article-page .article-intro {
+    margin-bottom: 25px;
+    padding-left: 14px;
+  }
+
+  .article-page .article-intro p {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .article-page .article-hero-image {
+    margin-bottom: 30px;
+  }
+
+  .article-page .article-hero-image img {
+    max-height: 420px;
+  }
+
+  .article-page .article-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .article-page .article-content h2 {
+    margin: 36px 0 16px;
+    font-size: 26px;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+  }
+
+  .article-page .article-content blockquote {
+    margin: 32px 0;
+    padding: 19px 18px;
+    font-size: 22px;
+  }
+
+  .article-page .article-image {
+    margin: 30px 0;
+  }
+
+  .article-page .article-content .article-signature {
+    margin-top: 35px;
+    padding-top: 17px;
+  }
+
+  .article-page .article-footer {
+    margin-top: 35px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .article-page *,
+  .article-page *::before,
+  .article-page *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
